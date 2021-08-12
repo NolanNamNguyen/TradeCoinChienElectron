@@ -1,6 +1,6 @@
 /* eslint-disable func-names */
 const axios = require('axios');
-const mergeWidth = require('lodash').mergeWith;
+const mergeWith = require('lodash').mergeWith;
 const API_URL = require('./setting').API_URL;
 
 const defaultOptions = {
