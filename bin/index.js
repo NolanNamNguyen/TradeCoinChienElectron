@@ -24,6 +24,8 @@ const getCoin = (inStr) => {
 };
 
 const showQuestion = () => {
+  console.log('check this shit');
+  console.log('hello there');
   rl.question("What do you want to buy: ", (inputStr) => {
     showQuestion(getCoin(inputStr));
   });
